@@ -106,9 +106,9 @@ Run
 
 
 
-&nbsp; git config --global user.email "you@example.com"
+  git config --global user.email "you@example.com"
 
-&nbsp; git config --global user.name "Your Name"
+  git config --global user.name "Your Name"
 
 
 
@@ -142,7 +142,7 @@ $ git commit -m "updated readme - first commit"
 
 \[main bbd19ac] updated readme - first commit
 
-&nbsp;1 file changed, 12 insertions(+), 1 deletion(-)
+ 1 file changed, 12 insertions(+), 1 deletion(-)
 
 
 
@@ -170,9 +170,25 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 
 To https://github.com/Teolan432/Teo-Test-Repo.git
 
-&nbsp;  2fa5036..bbd19ac  main -> main
+   2fa5036..bbd19ac  main -> main
 
 branch 'main' set up to track 'origin/main'.
 
 
+
+
+
+3rd changes
+
+what to do next - when you make an update run the following commands to push the update to the remote repository
+
+
+
+git status
+
+git add .
+
+git commit -m "message"
+
+git push
 
