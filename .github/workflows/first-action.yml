@@ -1,0 +1,10 @@
+name: First Workflow  #start by giving your action a name
+on: worklow_dispatch  #define the events that trigger this workflow, this allows us to manually trigger it
+jobs:   #The work that must be done
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello world"
+      - name: Print goodbye
+        run: echo "Done - bye"
