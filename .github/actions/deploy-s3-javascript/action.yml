@@ -1,5 +1,0 @@
-name: 'Deploy to AWS S3'
-description: 'deploy to a static website via AWS'
-runs:
-  using: 'node20'
-  main: 'main.js'
